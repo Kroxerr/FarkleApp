@@ -6,12 +6,12 @@
 
     // Dice array to pick from yaaay //
     const dices = [
-        { value: 1, img: "/FarkleApp/Farkle/1.png", score: 100 },
-        { value: 2, img: "/FarkleApp/Farkle/2.png", score:   0 },
-        { value: 3, img: "/FarkleApp/Farkle/3.png", score:   0 },
-        { value: 4, img: "/FarkleApp/Farkle/4.png", score:   0 },
-        { value: 5, img: "/FarkleApp/Farkle/5.png", score:  50 },
-        { value: 6, img: "/FarkleApp/Farkle/6.png", score:   0 },
+        { value: 1, img: "/FarkleApp/dice/1.png", score: 100 },
+        { value: 2, img: "/FarkleApp/dice/2.png", score:   0 },
+        { value: 3, img: "/FarkleApp/dice/3.png", score:   0 },
+        { value: 4, img: "/FarkleApp/dice/4.png", score:   0 },
+        { value: 5, img: "/FarkleApp/dice/5.png", score:  50 },
+        { value: 6, img: "/FarkleApp/dice/6.png", score:   0 },
     ]
 
     //Note to self//

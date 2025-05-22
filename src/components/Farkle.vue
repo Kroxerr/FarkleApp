@@ -23,7 +23,7 @@
 
 
     //---GAME - WHAT SCORE TO PLAY TO---//
-    const scoreToPlay   = ref(1000)
+    const scoreToPlay   = ref(3000)
 
 
 

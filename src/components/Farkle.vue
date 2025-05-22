@@ -114,22 +114,22 @@
     //ChatGPT znovu pomohl, moje původní verze byla nefunkční a byl jsem zoufalý
     function isInvalidSelection(selected) {
         const count = {};
-        selected.forEach(d => { // d - is short for dice
+        selected.forEach(d => {
             count[d.value] = (count[d.value] || 0) + 1;
         });
 
-        const specialScore = detectSpecialCombos(count);
-        if (specialScore > 0) return false;
+        const specialResult = detectSpecialCombos(count);
+        if (specialResult.score > 0) return false;
 
         for (let val in count) {
             const v = parseInt(val);
             const times = count[val];
 
             if (times >= 3 || v === 1 || v === 5) continue;
-            return true; // found an invalid dice
+            return true; // found an invalid die
         }
 
-        return false; // no invalid dice
+        return false;
     }
 
     //Storing dice into bank logic//
